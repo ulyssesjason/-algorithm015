@@ -14,7 +14,7 @@
   one + two sum: (double pointer or set)
 
 * **Moving zero**
-
+  O(n^2), consider outer loop as new array
 
 * **Reverse Linked List**
 
@@ -38,7 +38,7 @@
 
   1. coding has tough spot, if while loop to control slow != fast, then initial state should be different
 
-* **Min Stack **
+* **Min Stack**
   
   1. easy to think the solution as `heap + stack`, but pop() operation is O(n) (others are all O(1))
   2. consider using two stacks, with `min stack`, only push the smaller ones in, only pop when stack.peek is also min stack's top
