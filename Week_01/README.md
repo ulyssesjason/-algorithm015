@@ -42,3 +42,9 @@
   
   1. easy to think the solution as `heap + stack`, but pop() operation is O(n) (others are all O(1))
   2. consider using two stacks, with `min stack`, only push the smaller ones in, only pop when stack.peek is also min stack's top
+
+* **Largest Rectangle in Histogram**
+
+  1. O(n^2) solution is not super hard to figure out
+
+
